@@ -4,7 +4,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:715841367723:task-definition/project6-task:1"
+        TaskDefinition: "arn:aws:ecs:us-east-1:207567798584:task-definition/spring-app-task:1"
         LoadBalancerInfo:
-          ContainerName: "sprinrajco"
+          ContainerName: "springboot-container-asna"
           ContainerPort: 8080
