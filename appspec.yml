@@ -4,7 +4,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:207567798584:task-definition/asnadefinition:1"
+        TaskDefinition: "arn:aws:ecs:us-east-1:207567798584:task-definition/springdefinition:1"
         LoadBalancerInfo:
           ContainerName: "springboot-asna"
           ContainerPort: 8080
